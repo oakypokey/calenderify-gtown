@@ -1,0 +1,8 @@
+{
+  "name": "Calendarify for Georgetown",
+  "description": "A Facebook Chat bot that allows you to schedule your classes",
+  "repository": "",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["facebook", "chat", "Georgetown"],
+  "image": "heroku/nodejs"
+}

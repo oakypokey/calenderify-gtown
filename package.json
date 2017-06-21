@@ -1,0 +1,22 @@
+{
+  "name": "calendar4gtown",
+  "version": "1.0.0",
+  "description": "Facebook messenger bot that converts CRNs to Google Calendar events",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakypokey/calenderify-gtown.git"
+  },
+  "author": "Calvin Dass",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakypokey/calenderify-gtown/issues"
+  },
+  "homepage": "https://github.com/oakypokey/calenderify-gtown#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
