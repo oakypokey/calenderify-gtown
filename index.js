@@ -1,9 +1,15 @@
 let expresss = require('express')
 let app = express()
 
+app.set('port', (process.env.PORT || 5000));
+
 app.post('/webhook', (req, res) => {
   res.send('Hello World')
 })
+
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
 /*
 app.get('/webhook', function(req, res) {
